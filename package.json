@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
+  "files": [
+    "lib",
+    "docs"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublish": "yarn build"

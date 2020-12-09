@@ -4,7 +4,10 @@ import {
   ESLintUtils,
 } from "@typescript-eslint/experimental-utils";
 
-export default ESLintUtils.RuleCreator((name) => name)({
+export default ESLintUtils.RuleCreator(
+  () =>
+    "https://github.com/mk2/eslint-plugin-prefer-interface/blob/master/docs/rules/prefer-interface.md",
+)({
   name: "prefer-interface",
   meta: {
     type: "suggestion",

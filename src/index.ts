@@ -1,5 +1,7 @@
 import preferInterface from "./rules/prefer-interface";
 
-export default {
-  "prefer-interface": preferInterface,
+export = {
+  rules: {
+    "prefer-interface": preferInterface,
+  },
 };
